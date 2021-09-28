@@ -1,0 +1,692 @@
+/* Layout */
+
+body{
+    font-family: 'roboto';
+    position: fixed; bottom: 0%; top: 0%;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+#main {
+    padding: 0%;
+    margin: 0%;
+    overflow-x: hidden;
+     overflow-y: scroll; height: 100%;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+    position: relative;
+    top: 30%;
+  }
+ 
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+     }
+
+  #logo{
+      width: 20%;
+      height: 10vh;
+        position: relative;
+        left: 60%;
+  }
+  #burger{
+      position: relative;
+    left: 65%;
+    top: 20%;
+  }
+
+    #imgheader{
+        width: 75%;
+    }
+  #bannerfig{
+      padding-top: 5%;
+     text-align: center;
+  }
+  #bannerfig figcaption {
+      padding-top: 5%;
+      text-align: center;
+      width: 65%;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      left: 15%;
+      
+  }
+  
+
+  #articles{
+      padding-top: 10%;
+  }
+
+  #img1{
+      height: 65%;
+      position: relative;
+      right: 1%;
+  }
+
+  #txt1{
+      position: relative;
+      right: 13%;
+      text-align: left;
+      padding-top: 3%;
+      
+    }
+    #blocktxt1{
+        width: 70%;
+        position: relative;
+        bottom: 30%;
+    }
+
+  #txt1 h2{
+      padding-bottom: 5%;
+      position: relative;
+      right: 10%;
+      bottom: 35%; 
+  }
+  #txt1 p {
+      padding-bottom: 5%;
+  }
+
+  #effect1{
+      position: relative;
+    bottom: 20%;
+      right: 20%;
+      width: 35%;
+  }
+  
+
+  #row2{
+     padding: 0;
+     margin: 0;
+     height: 70vh;
+ }
+
+  #blocktxt2{
+      width: 20%;
+      height: 30%;
+      position: relative;
+      left: 20%;
+  }
+  #title2{
+      margin-bottom: 15%;
+     
+  }
+  #title2 h2{
+    font-weight: bolder;
+    font-size: 2em;
+  }
+  #blocktxt2 p{
+    font-style: italic;
+  }
+#blocktxt2 a{
+    position: relative;
+    top: 5%;
+}
+
+
+  #img2{
+    height: 40%;
+    object-position: 0% 0%;
+    background-position: 0% 0%;
+    margin: 94px 0 0 auto;
+    position: relative;
+    bottom: 45%;
+    left: 49%;
+}
+
+#row3{
+    padding: 0;
+    margin: 0;
+}
+
+ #blocktxt3{
+     width: 20%;
+     height: 30%;
+     position: relative;
+     left: 20%;
+ }
+ #title3{
+     margin-bottom: 15%;
+    
+ }
+  #blocktxt3 a{
+    position: relative;
+    top: 5%;
+}
+ #img3{
+   height: 40%;
+   object-position: 0% 0%;
+   background-position: 0% 0%;
+   margin: 94px 0 0 auto;
+   position: relative;
+   bottom: 45%;
+   left: 50%;
+   
+}
+
+#effect2{
+    position: relative;
+    left: 17%;
+    top: 8%;
+    width: 8%;
+}
+#row4{
+    height: 40vh;
+}
+
+#img4{
+    height: 75%;
+    position: relative;
+    bottom: 60%;
+    right: 10%;
+}
+
+#txt4{
+    position: relative;
+    right: 13%;
+    text-align: left;
+     }
+  #blocktxt4{
+      width: 75%;
+      position: relative;
+      bottom: 30%;
+  }
+
+#txt4 h2{
+    padding-bottom: 5%;
+    position: relative;
+    right: 10%;
+    bottom: 35%;
+}
+#row5{
+    height: 45vh;
+}
+#txt5{
+    text-align: left;
+    position: relative;
+    left: 20%;
+    top: 30%;
+    width: 10%;
+
+}
+#txt6{
+    text-align: right;
+    position: relative;
+    top: 35%;
+    right: 10%;
+ }
+#bg{
+    height: 50%;
+    position: relative;
+    bottom: 16%;
+    left: 16%;
+}
+#txt6 h2 {
+    position: relative;
+    bottom: 50%;
+    text-align: left;
+    left: 75%;
+   
+}
+
+#txt6 a{
+    position: relative;
+    bottom: 45%;
+    right: 17%;
+}
+
+#img6{
+    position: relative;
+    right: 5%;
+    height: 85%;
+   bottom: 20%;
+   z-index: -1;
+}
+#txt7{
+    position: relative;
+      right: 13%;
+      top: 15%;
+      text-align: left;
+      padding-top: 3%;
+}
+#blocktxt7{
+    width: 70%;
+    position: relative;
+    padding-top: 10%;
+}
+#effect1-1{
+    position: relative;
+    top: 10%;
+    right: 10%;
+    z-index: -1;
+    height: 20%;
+}
+#row7{
+    height: 5vh;
+}
+
+#blocktxt8{
+    width: 20%;
+    position: relative;
+    left: 30%;
+    bottom: 80%;
+   
+}
+#blocktxt8 h2{
+    margin-bottom: 15%;
+}
+#effect3{
+    height: 35%;
+    position: relative;
+    left: 26%;
+    bottom: 60%;
+ }
+
+#rowimg1{
+  
+    height: 30vh;
+   
+}
+#col1{
+    background-image: url(img/rw1bg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#col2{
+    background-image: url(img/rw2bg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#col3{
+    background-image: url(img/rw3bg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#col4{
+    background-image: url(img/rw4bg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#rowimg2{
+    
+    height: 30vh;
+   
+}
+
+#col5{
+    background-image: url(img/rw5bg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#col6{
+    background-image: url(img/rw6bg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#col7{
+    background-image: url(img/rw7bg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#col8{
+    background-image: url(img/rw8bg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#blocklogo{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+}
+#blockheadline{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+}
+
+.btn-1{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 12%;
+    padding-right: 12%;
+    position: relative;
+  
+}
+
+.btn-2{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+.btn-2-1{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 4%;
+    padding-right: 4%;
+    position: relative;
+    left: 1rem;
+   }
+#btn-3{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+
+/* Styles */
+
+body {
+    font-family: 'Roboto',"Trebuchet MS","Tahoma","Verdana","Arial","sans-serif";
+}
+
+.sidenav {
+    background-color: #111;
+     }
+
+     .sidenav a {
+        color: #818181;
+      }
+
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+    
+      #header{
+        border-bottom: 1px black solid;
+        
+    }
+    #bannerfig h1 {
+        font-size: 4em;
+        font-weight: bolder;
+    }
+    #txt1 h2{
+       font-weight: bolder;
+       font-size: 2em;   
+    }
+    #txt1 p{
+        font-style: italic;
+       }
+       #title3 h2{
+        font-weight: bolder;
+        font-size: 2em;
+      }
+     
+      #blocktxt3 p{
+         font-style: italic;
+       }
+       #txt4 h2{
+       font-weight: bolder;
+       font-size: 2em;
+      }
+      #txt4 p{
+        font-style: italic;
+    }
+    
+    #row5{
+        background-image: linear-gradient(-90deg, #cf84fb, #35ced0);
+      }
+      #txt5{
+          color: #fff;
+      }
+      #txt6 h2{
+        font-weight: bolder;
+     }
+     #txt7 h2{
+        font-weight: bolder;
+        font-size: 3em;
+    }
+    #titleeffect7{
+        font-weight: bolder;
+        font-size: 2em;
+      }
+    #footer {
+        background-color: #2b2933;
+        color: white;
+     }
+     #logofooter{
+        height: 45%;
+        opacity: 0.6;
+        }
+        .btn-1{
+            background-image: linear-gradient(to right, #84abec, #cf84fb);
+            border-radius: 101px 101px 101px 101px;
+        -moz-border-radius: 101px 101px 101px 101px;
+        -webkit-border-radius: 101px 101px 101px 101px;
+        color: white;
+        font-size: 1em;
+        font-weight: bolder;
+         }
+         .btn-2-1{
+            background-color: black;
+            border-radius: 101px 101px 101px 101px;
+        -moz-border-radius: 101px 101px 101px 101px;
+        -webkit-border-radius: 101px 101px 101px 101px;
+        color: white;
+        font-size: 1em;
+        font-weight: bolder;
+        
+        }
+        .btn-2{
+            background-color: black;
+            border-radius: 101px 101px 101px 101px;
+        -moz-border-radius: 101px 101px 101px 101px;
+        -webkit-border-radius: 101px 101px 101px 101px;
+        color: white;
+        font-size: 1em;
+        font-weight: bolder;
+        }
+        #btn-3{
+            background-image: linear-gradient(to right, #35ced0, #84abec);
+            border-radius: 101px 101px 101px 101px;
+        -moz-border-radius: 101px 101px 101px 101px;
+        -webkit-border-radius: 101px 101px 101px 101px;
+        color: white;
+        font-size: 1em;
+        font-weight: bolder;
+        }
+
+        /* Media Query*/
+
+        @media screen and (max-width: 750px ) {
+            
+            #header {
+                
+                position: relative;
+                padding-right: 20%;               
+            }
+            #bannerfig  h1 {
+                font-size: 2em;
+            }
+            
+            #img1 {
+                position: relative;
+                right: 8%;
+                height: 24%;
+                
+            }
+            #txt1{
+                
+               position: relative;
+               bottom: 23em;
+               left: 15%;
+              
+            }
+            #blocktxt2 {
+                width: 80%;
+                height: 30%;
+                position: relative;
+                left: 15%;
+                bottom: 30%; 
+            }
+            #img2 {
+                position: relative;
+                right: 50%;
+                height: 25%;
+                left: 5%;
+                padding-top: 68%;
+
+            }
+            #blocktxt3 {
+                width: 80%;
+                height: 30%;
+                position: relative;
+                left: 15%;
+                 bottom: 10%;
+            }
+             #txt3 #effect2 {
+                 display: none;
+             }
+            #img3 {
+                position: relative;
+                right: 50%;
+                height: 15%;
+                left: 5%;
+                top: 1%;
+                
+
+            }
+            #img4 {
+                position: relative;
+                right: 8%;
+                height: 24%;
+            }
+            #txt4 h2 {
+                width: 80%;
+                height: 30%;
+                position: relative;
+                left: 30%;
+                 bottom: 250%;
+            }
+            
+            #blocktxt4 {
+                width: 80%;
+                height: 30%;
+                position: relative;
+                left: 30%;
+                 bottom: 255%;
+            }
+            #txt5 {
+                text-align: center;
+                position: relative;
+                top: 25%;
+                width: 100%;
+                left: 0;
+            }   
+
+            
+            #txt6 {
+                align-content: center;
+                justify-content: center;
+                text-align: center;
+            }
+            #txt6 h2 {
+                align-content: center;
+                position: relative;
+                bottom: 50%;
+                text-align: center;
+                left: 10%;
+                padding-top: 5%;
+            }  
+            #bg {
+                position: relative;
+                z-index: -1;
+            }
+
+            #btn-5 {
+                padding-top: 0.5rem;
+                padding-bottom: 0.5rem;
+                padding-left: 4%;
+                padding-right: 4%;
+                margin-left: 13%;
+               
+               
+            }
+            #img6 {
+                position: relative;
+                right: 10%;
+                height: 25%;
+                top: 35%;
+            }
+            #txt7{
+                
+                position: relative;
+                bottom: 23em;
+                left: 15%;
+                
+               
+             }
+             #txt7 h2 {
+                position: relative;
+                right: 10%;
+                 margin-right: 3%;
+                
+             }
+             #effect3 {
+                 display: none;
+             }
+             #blocktxt8 {
+
+                width: 80%;
+                height: 30%;
+                position: relative;
+                bottom: 150%;
+                text-align: left;
+                justify-content: center;
+              
+                
+            }
+            #titleeffect7 {
+                position: relative;
+               right:  20% ;
+            }
+            #txteffect7 {
+                
+                position: relative;
+                right: 20%;
+            }
+           }
+
+          
