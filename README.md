@@ -1,2 +1,2 @@
 # Int-grationMaquette
-Example d'intégration d'une maquette. ScrollMagic
+Exemple d'intégration d'une maquette. ScrollMagic
